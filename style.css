@@ -8,6 +8,7 @@ figure.snip0051 {
   height: 715px;
   margin: 0;
   background: #000000;
+  position: relative;
 }
 figure.snip0051 * {
   -webkit-box-sizing: border-box;
@@ -40,9 +41,9 @@ figure.snip0051 figcaption p {
 }
 figure.snip0051 figcaption h2 {
   font-size: 1.3em;
-  bottom: 65%;
-  right: 18%;
-  /* font-weight: 300; */
+  top: 5%;
+  right: 19%;
+  font-weight: 300;
   font-size: 40px;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -51,7 +52,7 @@ figure.snip0051 figcaption h2 span {
   font-weight: 800;
 }
 figure.snip0051 figcaption p {
-  top: 40%;
+  top: 17%;
   left: 20%;
   font-size: 0.9em;
   opacity: 0.8;
@@ -165,3 +166,43 @@ body {
 #botton a:hover{
   color: black;
 }
+.backg{
+  width: 675px;
+  height: 30px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+h4{
+  font-size: 15px;
+}
+
+#skill{
+  position: absolute;
+  bottom: 55px;
+  left: 30px;
+}
+ h6{
+  font-style: italic;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  font-size: 11px;
+ }
+.ht,.cs,.sql{
+  background-color: rgb(87, 87, 228);
+  height: 25px;
+  border-radius: 8px;
+  text-align: end;
+}
+ .ht{
+  width: 540px;
+ }
+ .cs{
+  width: 337px;
+ }
+ .sql{
+  width: 472px;
+ }
