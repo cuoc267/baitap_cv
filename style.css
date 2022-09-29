@@ -196,13 +196,41 @@ h4{
   height: 25px;
   border-radius: 8px;
   text-align: end;
+  /* animation-name: example; */
+  animation-duration: 3s;
 }
  .ht{
+  animation-name: html;
+  /* animation-duration: 3; */
   width: 540px;
  }
+ @keyframes html {
+  from {background-color: blue;}
+  to{background-color: yellowgreen;}
+  from{width: 0;}
+  to{width: 540px;}
+
+ }
  .cs{
+  animation-name: css;
+  animation-duration: 3;
   width: 337px;
  }
+ @keyframes css {
+  from {background-color: blue;}
+  to{background-color: yellowgreen;}
+  from{width: 0;}
+  to{width: 337px;} 
+ }
+
  .sql{
+  animation-name: sql;
+  animation-duration: 3;
   width: 472px;
+ }
+ @keyframes sql {
+  from {background-color: blue;}
+  to{background-color: yellowgreen;}
+  from{width: 0;}
+  to{width: 472px;} 
  }
