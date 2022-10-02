@@ -6,10 +6,10 @@ figure.snip0051 {
   overflow: hidden;
   width: 100%;
   height: 715px;
-  margin: 0;
   background: #000000;
   position: relative;
-}
+  display: flex;
+  }
 figure.snip0051 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -154,10 +154,13 @@ body {
 #botton{
   background-color: rgb(234, 112, 112);
   height: 40px;
-  width: 738px;
-  position: absolute;
-  bottom: 0px;
+  width: 150px;
   text-align: center;
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+  border-radius: 10px;
+
 }
 #botton a{
   line-height: 40px;
@@ -167,7 +170,7 @@ body {
   color: black;
 }
 .backg{
-  width: 675px;
+  width: 575px;
   height: 30px;
   background-color: rgb(216, 216, 216);
   border-radius: 10px;
@@ -202,35 +205,35 @@ h4{
  .ht{
   animation-name: html;
   /* animation-duration: 3; */
-  width: 540px;
+  width: 460px;
  }
  @keyframes html {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 540px;}
+  to{width: 460px;}
 
  }
  .cs{
   animation-name: css;
-  animation-duration: 3;
-  width: 337px;
+  /* animation-duration: 3; */
+  width: 287px;
  }
  @keyframes css {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 337px;} 
+  to{width: 287px;} 
  }
 
  .sql{
   animation-name: sql;
-  animation-duration: 3;
-  width: 472px;
+  /* animation-duration: 3; */
+  width: 402px;
  }
  @keyframes sql {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 472px;} 
+  to{width: 402px;} 
  }
