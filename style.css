@@ -1,199 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip0051 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif ;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 715px;
-  background: #000000;
-  position: relative;
-  display: flex;
-  }
-figure.snip0051 * {
-  -webkit-box-sizing: border-box;
+*{
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-figure.snip0051 > img {
-  margin-left: 50%;
-  opacity: 1;
-  width: 50%;
-  filter: blur(0px);
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-figure.snip0051 figcaption {
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  background: #ffffff;
-}
-figure.snip0051 figcaption h2,
-figure.snip0051 figcaption p {
-  /* margin: 0; */
-  color: #000000;
-  text-align: auto;
-  position: absolute;
-  padding: 10px 0 10px 0px;
-  margin: 0 40px 0 20px;
-}
-figure.snip0051 figcaption h2 {
-  font-size: 1.3em;
-  top: 5%;
-  right: 19%;
-  font-weight: 300;
-  font-size: 40px;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-figure.snip0051 figcaption h2 span {
-  font-weight: 800;
-}
-figure.snip0051 figcaption p {
-  top: 17%;
-  left: 20%;
-  font-size: 0.9em;
-  opacity: 0.8;
-  font-size: 20px;
-}
-figure.snip0051 .icons {
-  padding: 5px;
-  position: absolute;
-  left: 65%;
-  top: 50%;
-  padding-left: 30px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-figure.snip0051 .icons i {
-  font-size: 60px;
-  padding: 10px;
-  color: #ffffff;
-  opacity: 0;
-  top: 50%;
-  display: inline-block;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-  -webkit-transform: translateX(50px);
-  transform: translateX(50px);
-}
-figure.snip0051 .icons a:first-child i {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-figure.snip0051 .icons a:nth-child(2) i {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-figure.snip0051 .icons a:nth-child(3) i {
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-figure.snip0051:after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 35px;
-  width: 35px;
-  background-color: #000000;
-  content: '';
-  -webkit-transform: rotate(45deg) translate(-50%, -50%);
-  transform: rotate(45deg) translate(-50%, -50%);
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
-figure.snip0051:hover > img,
-figure.snip0051.hover > img {
-  opacity: 0.5;
-  filter: blur(5px);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-figure.snip0051:hover i,
-figure.snip0051.hover i {
-  opacity: 0.8;
-  -webkit-transform: translate(0);
-  transform: translate(0);
-}
-figure.snip0051:hover a:first-child i,
-figure.snip0051.hover a:first-child i {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-figure.snip0051:hover a:nth-child(2) i,
-figure.snip0051.hover a:nth-child(2) i {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-figure.snip0051:hover a:nth-child(3) i,
-figure.snip0051.hover a:nth-child(3) i {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
-/* Demo purposes only */
-body {
-  background-color: #212121;
-}
-
-
-/* Demo purposes only */
-html {
-  height: 100%;
-}
-body {
-  background-color: #212121;
+#header{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
-  margin: 0;
+  flex-wrap: wrap;
+  background-color: rgb(243, 235, 235);
+  height: 700px;
+  margin: 10px;
+}
+img{
   height: 100%;
 }
-#botton{
-  background-color: rgb(234, 112, 112);
-  height: 40px;
-  width: 150px;
-  text-align: center;
-  position: absolute;
-  bottom: 5px;
-  left: 40%;
-  border-radius: 10px;
-
-}
-#botton a{
-  line-height: 40px;
-  text-decoration: none;
-}
-#botton a:hover{
-  color: black;
-}
-.backg{
-  width: 575px;
-  height: 30px;
-  background-color: rgb(216, 216, 216);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
-
-h4{
+p{
   font-size: 15px;
 }
-
-#skill{
-  position: absolute;
-  bottom: 55px;
-  left: 30px;
+h1,pre{ 
 }
- h6{
-  font-style: italic;
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 11px;
- }
+#content{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+#skill{
+}
+.backg{
+  height: 30px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
 .ht,.cs,.sql{
   background-color: rgb(87, 87, 228);
   height: 25px;
@@ -204,36 +45,41 @@ h4{
 }
  .ht{
   animation-name: html;
-  /* animation-duration: 3; */
-  width: 460px;
+  width: 320px;
  }
  @keyframes html {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 460px;}
+  to{width: 320px;}
 
  }
  .cs{
   animation-name: css;
   /* animation-duration: 3; */
-  width: 287px;
+  width: 200px;
  }
  @keyframes css {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 287px;} 
+  to{width: 200px;} 
  }
 
  .sql{
   animation-name: sql;
   /* animation-duration: 3; */
-  width: 402px;
+  width: 280px;
  }
  @keyframes sql {
   from {background-color: blue;}
   to{background-color: yellowgreen;}
   from{width: 0;}
-  to{width: 402px;} 
+  to{width: 280px;} 
+ }
+ a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    
  }
